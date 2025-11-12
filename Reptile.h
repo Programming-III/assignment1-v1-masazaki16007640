@@ -5,7 +5,17 @@
 
 //define reptile class here
 
-
+class Reptile:public Animal{
+    private:
+    bool isVenomous;
+    
+    
+    public:
+    Reptile();
+    Reptile(string n, int a, bool h,bool v);
+    void display();
+    ~Reptile();
+};
 
 
 
